@@ -64,7 +64,3 @@ export const skills = [
   "HTML & CSS",
   "Python",  
 ];
-
-export const Cv = [
-  
-]

@@ -10,7 +10,8 @@ import 'tailwindcss/tailwind.css';
 import { useState } from "react";
 
 export default function App() {
-  const [pdfUrl] = useState('./Udeepa_desarana.pdf');
+  const [CvUrl] = useState('./Udeepa_desarana.pdf');
+  const [ClUrl] = useState('./Cover Letter.pdf');
 
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
@@ -18,7 +19,7 @@ export default function App() {
       <About />
       <Projects />
       <Skills />
-      <Cv pdfUrl={pdfUrl} />
+      <Cv CvUrl={CvUrl} ClUrl={ClUrl} />
       <Testimonials />
       <Contact />
     </main>

@@ -1,3 +1,4 @@
+import { DocumentTextIcon } from '@heroicons/react/solid';
 import React from "react";
 
 export default function About() {
@@ -7,13 +8,13 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Udeepa.
-            <br className="hidden lg:inline-block" />I love to build amazing
-            apps.
+            <br className="hidden lg:inline-block" />Software development is a way of life.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+          Welcome to my portfolio! As a recent graduate with a BSc (Hons) in Information Technology specializing in Information Technology, 
+          I am excited to pursue a career in software engineering. With a passion for coding and a strong foundation in programming languages and software development methodologies, 
+          I am eager to apply my skills and knowledge to real-world projects. This portfolio showcases some of my best work and demonstrates my abilities as a software engineer. 
+          I am currently seeking an internship opportunity to further develop my skills and contribute to a dynamic team.
           </p>
           <div className="flex justify-center">
             <a
