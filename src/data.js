@@ -51,12 +51,18 @@ export const testimonials = [
 ];
 
 export const skills = [
+  "Time Management",
+  "Hard Working",
+  "Team Work",
   "JavaScript",
+  "Java",
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "C",
+  "C#",
+  "C++",
+  "PHP",
+  "HTML & CSS",
+  "Python",  
 ];
 
 export const Cv = [

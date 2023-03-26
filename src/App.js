@@ -18,9 +18,7 @@ export default function App() {
       <About />
       <Projects />
       <Skills />
-      <div>
-        <Cv pdfUrl={pdfUrl} />
-      </div>
+      <Cv pdfUrl={pdfUrl} />
       <Testimonials />
       <Contact />
     </main>
