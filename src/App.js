@@ -5,14 +5,22 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
+import Cv from "./components/Cv";
+import 'tailwindcss/tailwind.css';
+import { useState } from "react";
 
 export default function App() {
+  const [pdfUrl] = useState('./Udeepa_desarana.pdf');
+
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
       <About />
       <Projects />
       <Skills />
+      <div>
+        <Cv pdfUrl={pdfUrl} />
+      </div>
       <Testimonials />
       <Contact />
     </main>

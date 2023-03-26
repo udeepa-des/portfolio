@@ -58,3 +58,7 @@ export const skills = [
   "GraphQL",
   "Material UI",
 ];
+
+export const Cv = [
+  
+]
